@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -23,7 +24,7 @@
         <a class="header__link" href="./index.html"> <span>Web</span>Studio </a>
         <nav class="nav">
           <ul class="nav__list list">
-            <li class="nav__item item nav__active">
+            <li class="nav__item item nav--active">
               <a class="nav__link current" href="/">Студія</a>
             </li>
             <li class="nav__item item">
@@ -436,7 +437,11 @@
         </div>
         <div class="footer-mailing">
           <h3 class="footer-mailing__text">Підпишіться на розсилку</h3>
-          <form class="footer-mailing__form" name="email_form" autocomplete="on">
+          <form
+            class="footer-mailing__form"
+            name="email_form"
+            autocomplete="on"
+          >
             <label for="user-email"></label>
             <input
               class="footer-mailing__form-input"
