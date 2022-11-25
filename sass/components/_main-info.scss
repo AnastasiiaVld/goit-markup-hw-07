@@ -7,7 +7,9 @@
 }
 
 .main-info__container {
-    @include flex-box-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;

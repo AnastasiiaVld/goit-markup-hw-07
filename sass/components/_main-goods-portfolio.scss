@@ -31,7 +31,6 @@
     position: relative;
     padding: 20px 0 20px 24px;
     border: 1px solid #eee;
-    border-top: none;
     background: var(--White-color);
     z-index: 2;
 }
@@ -48,10 +47,10 @@
 
 .main-goods-link:hover,
 .main-goods-link:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.main-goods-link:hover .main-goods-overlay {
+.main-goods-link:hover .main-goods-overlay{
     transform: translateY(0);
 }
 
@@ -76,4 +75,5 @@
     color: var(--White-color);
     letter-spacing: 0.03em;
 }
+
 
